@@ -57,7 +57,7 @@ if (isset($_POST['email'])){
 		  $postData['PASSWORD'] = CRM_PASSWORD;
 		  $postData['STATUS_ID'] = 'IN_PROCESS';
 		  $postData['SOURCE_ID'] = 'WEB';
-		  $postData['ADDRESS_CITY'] = $_POST['city'];
+		  $postData['ADDRESS'] = $_POST['city'];
 		  $postData['POST'] = $_POST['post'];
 		  $postData['NAME'] = $_POST['name'];
 		  $postData['PHONE_MOBILE'] = $_POST['phone'];
@@ -111,7 +111,7 @@ if (isset($_POST['email'])){
 					<form class="form-signin" method="post" action="index.php">
 						<p class="h3 mb-3 font-weight-normal" style="text-align: center">Отправить заявку</p><br>
 						<label for="city" class="sr-only">Город</label>
-						<select class="form-control mb-3" name="city">
+						<select id="city" class="form-control mb-3" name="city">
 							<option value="" disabled selected>Город</option>
 							<?
 								for ($i = 0; $i <= count($cities); $i++){
