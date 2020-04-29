@@ -104,7 +104,7 @@ if (isset($_POST['email'])){
 }
 ?>
     <div class="container">
-     	<div class="row align-items-center" style="height: 80%; color: white;">
+     	<div class="row align-items-center mt-5" style="height: 80%; color: white;">
 			<div class="col-md-12 mx-auto my-auto">
 
 				<div class="col-md-5 mx-auto justify-content-center">
