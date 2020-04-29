@@ -1,1 +1,1 @@
-# bitrix24
+# http://bitrix24.burujeg.ru/
